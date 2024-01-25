@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\OMISTAJA\Desktop\kouluprojektit\ohjelmoinninPerusteet\harjoitusprojekti3\LexicalAnalyzer\LexicalAnalyzer\main.cpp(25,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  LexicalAnalyzer.vcxproj -> C:\Users\OMISTAJA\Desktop\kouluprojektit\ohjelmoinninPerusteet\harjoitusprojekti3\LexicalAnalyzer\x64\Debug\LexicalAnalyzer.exe
