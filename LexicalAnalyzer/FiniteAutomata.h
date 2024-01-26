@@ -16,7 +16,7 @@ public:
 	void operator --();
 	bool operator &();
 
-	void insert(std::string word);
+	void insert(std::string word, std::string type);
 
 private:
 	std::vector<Transition*>transitions;

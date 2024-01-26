@@ -132,7 +132,8 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TransitionIdentifier.cpp" />
     <ClCompile Include="TransitionKeyword.cpp" />
-    <ClCompile Include="TranstionLiteral.cpp" />
+    <ClCompile Include="TransitionLiteral.cpp" />
+    <ClCompile Include="TransitionPunctuation.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AutomataState.h" />
@@ -142,13 +143,14 @@
     <ClInclude Include="Transition.h" />
     <ClInclude Include="TransitionIdentifier.h" />
     <ClInclude Include="TransitionKeyword.h" />
-    <ClInclude Include="TranstionLiteral.h" />
+    <ClInclude Include="TransitionLiteral.h" />
+    <ClInclude Include="TransitionPunctuation.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="exmlcode.txt" />
     <Text Include="keywords.txt" />
     <Text Include="operators.txt" />
-    <Text Include="punctuations.txt" />
+    <Text Include="punctuators.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
