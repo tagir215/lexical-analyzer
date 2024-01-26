@@ -5,4 +5,5 @@ struct AutomataState {
 	State* root;
 	State* currentState;
 	State* identifier;
+	State* literal;
 };

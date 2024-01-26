@@ -30,7 +30,10 @@
     <ClCompile Include="TransitionIdentifier.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TranstionLiteral.cpp">
+    <ClCompile Include="TransitionLiteral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransitionPunctuation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -56,7 +59,10 @@
     <ClInclude Include="TransitionIdentifier.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TranstionLiteral.h">
+    <ClInclude Include="TransitionLiteral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransitionPunctuation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -70,7 +76,7 @@
     <Text Include="exmlcode.txt">
       <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="punctuations.txt">
+    <Text Include="punctuators.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

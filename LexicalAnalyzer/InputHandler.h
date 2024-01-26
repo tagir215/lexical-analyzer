@@ -18,8 +18,8 @@ public:
 	}
 private:
 	std::string KEYWORDS_PATH = "keywords.txt";
-	std::string PUNCTUATORS_PATH = "keywords.txt";
-	std::string OPERATORS_PATH = "keywords.txt";
+	std::string PUNCTUATORS_PATH = "punctuators.txt";
+	std::string OPERATORS_PATH = "operators.txt";
 	std::string EXAMPLECODE_PATH = "exmlcode.txt";
 	std::vector<std::string> getFileAsStrings(std::string path);
 	std::string getFileAsString(std::string path);
