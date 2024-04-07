@@ -6,7 +6,7 @@ bool TransitionIdentifier::execute(AutomataState& state, char c){
         || state.currentState->tokenType == TokenType::PUNCTUATION) {
         return false;
     }
-    if (c == '_' || std::isalpha(c)) {
+    if (c == '_' || std::isalpha(c) || std::isdigit(c)) {
         state.currentState = state.identifier;
         return true;
     }

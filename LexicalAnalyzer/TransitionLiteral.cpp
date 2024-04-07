@@ -3,7 +3,9 @@
 
 bool TransitionLiteral::execute(AutomataState& state, char c){
     if (state.currentState->tokenType == TokenType::OPERATOR 
-        || state.currentState->tokenType == TokenType::PUNCTUATION) {
+        || state.currentState->tokenType == TokenType::PUNCTUATION
+        || state.currentState->tokenType == TokenType::IDENTIFIER 
+        || state.currentState->tokenType == TokenType::KEYWORD){
         return false;
     }
 
