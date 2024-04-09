@@ -2,13 +2,14 @@
 #include <vector>
 #include <unordered_map>
 #include <string>
+#include "TokenType.h"
 
 struct State {
 	std::unordered_map<char,State*>childStates;
 	bool isAllowed;
-	std::string type;
+	TokenType tokenType;
 
-	State(std::string type) : type(type) {
+	State(TokenType tokenType) : tokenType(tokenType) {
 		isAllowed = false;
 	}
 };

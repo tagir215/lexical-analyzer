@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FileManager.cpp" />
     <ClCompile Include="FiniteAutomata.cpp" />
     <ClCompile Include="InputHandler.cpp" />
     <ClCompile Include="main.cpp" />
@@ -137,9 +138,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AutomataState.h" />
+    <ClInclude Include="FileManager.h" />
     <ClInclude Include="FiniteAutomata.h" />
     <ClInclude Include="InputHandler.h" />
     <ClInclude Include="State.h" />
+    <ClInclude Include="Token.h" />
+    <ClInclude Include="TokenType.h" />
     <ClInclude Include="Transition.h" />
     <ClInclude Include="TransitionIdentifier.h" />
     <ClInclude Include="TransitionKeyword.h" />

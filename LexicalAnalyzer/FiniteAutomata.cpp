@@ -4,10 +4,10 @@
 #include "TransitionLiteral.h"
 
 FiniteAutomata::FiniteAutomata() {
-	state.root = new State("ROOT");
-	state.identifier = new State("IDENTIFIER");
+	state.root = new State(TokenType::NONE);
+	state.identifier = new State(TokenType::IDENTIFIER);
 	state.identifier->isAllowed = true;
-	state.literal = new State("LITERAL");
+	state.literal = new State(TokenType::LITERAL);
 	state.literal->isAllowed = true;
 
 	state.currentState = state.root;
@@ -37,11 +37,11 @@ bool FiniteAutomata::operator &(){
 	return state.currentState->isAllowed;
 }
 
-void FiniteAutomata::insert(std::string word, std::string type){
+void FiniteAutomata::insert(std::string word, TokenType tokenType){
 	state.currentState = state.root;
 	for (char c : word) {
 		if (state.currentState->childStates.find(c) == state.currentState->childStates.end()) {
-			state.currentState->childStates[c] = new State(type);
+			state.currentState->childStates[c] = new State(tokenType);
 		}
 		state.currentState = state.currentState->childStates[c];
 	}

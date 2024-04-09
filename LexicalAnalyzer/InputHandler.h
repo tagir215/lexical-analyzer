@@ -2,6 +2,9 @@
 #include <vector>
 #include <string>
 
+/*
+* lataa tiedostoista tietoja eri tyyppisistä tokeneista
+*/
 class InputHandler{
 public:
 	std::vector<std::string> getKeyWords() {
