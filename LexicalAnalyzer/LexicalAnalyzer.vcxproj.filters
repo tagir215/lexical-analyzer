@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="FiniteAutomata.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="InputHandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TransitionKeyword.cpp">
@@ -39,15 +33,18 @@
     <ClCompile Include="FileManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LexicalAnalyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FiniteAutomata.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="State.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="InputHandler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Transition.h">
@@ -77,18 +74,12 @@
     <ClInclude Include="TokenType.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="LexicalAnalyzer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="keywords.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
-    <Text Include="operators.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
     <Text Include="exmlcode.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
-    <Text Include="punctuators.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

@@ -27,13 +27,13 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -46,7 +46,7 @@
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -129,7 +129,7 @@
   <ItemGroup>
     <ClCompile Include="FileManager.cpp" />
     <ClCompile Include="FiniteAutomata.cpp" />
-    <ClCompile Include="InputHandler.cpp" />
+    <ClCompile Include="LexicalAnalyzer.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TransitionIdentifier.cpp" />
     <ClCompile Include="TransitionKeyword.cpp" />
@@ -140,7 +140,7 @@
     <ClInclude Include="AutomataState.h" />
     <ClInclude Include="FileManager.h" />
     <ClInclude Include="FiniteAutomata.h" />
-    <ClInclude Include="InputHandler.h" />
+    <ClInclude Include="LexicalAnalyzer.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="Token.h" />
     <ClInclude Include="TokenType.h" />
@@ -152,9 +152,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="exmlcode.txt" />
-    <Text Include="keywords.txt" />
-    <Text Include="operators.txt" />
-    <Text Include="punctuators.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
