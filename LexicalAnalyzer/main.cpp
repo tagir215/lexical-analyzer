@@ -1,8 +1,8 @@
-#include "InputHandler.h"
 #include "FiniteAutomata.h"
 #include <iostream>
 #include "Token.h"
 #include "FileManager.h"
+#include "LexicalAnalyzer.h"
 
 std::string tokenTypeToString(TokenType type) {
 	if (type == TokenType::KEYWORD) return "KEYWORD";
@@ -10,7 +10,7 @@ std::string tokenTypeToString(TokenType type) {
 	if (type == TokenType::LITERAL) return "LITERAL";
 	if (type == TokenType::OPERATOR) return "OPERATOR";
 	if (type == TokenType::PUNCTUATION) return "PUNCTUATION";
-	return nullptr;
+	return "";
 }
 
 void printTokens(std::vector<Token>& tokens) {
@@ -25,54 +25,25 @@ void printTokens(std::vector<Token>& tokens) {
 }
 
 int main() {
+	std::string code = 
+	R"(const char* s = "hello world";
+    int a = 5;
+    a++;
+    double exampleCodeIdentifier = 50;
+    float a5 = 45.0f;
+    bool boolean = false;
+    
+    for(int i=0; i<20; ++i){
+        while(a!=900000){
+            a-=40;				
+        }
+    }
+    
+    return 0;
+    )";
+	LexicalAnalyzer lexicalAnalyzer;
 
-	InputHandler input_handler;
-	FiniteAutomata automata;
-	std::vector<std::string> keywords = input_handler.getKeyWords();
-	std::vector<std::string> punctuators = input_handler.getPunctuators();
-	std::vector<std::string> operators = input_handler.getOperators();
-
-	for (std::string keyword : keywords) {
-		automata.insert(keyword, TokenType::KEYWORD);
-	}
-	for (std::string punctuation : punctuators) {
-		automata.insert(punctuation, TokenType::PUNCTUATION);
-	}
-	for (std::string opr : operators) {
-		automata.insert(opr, TokenType::OPERATOR);
-	}
-
-	std::string code = input_handler.getCode() + "\n";
-	std::string currentWord = "";
-
-	std::vector<Token>tokens;
-
-	--automata;
-	bool halt = false;
-	for (int i = 0; i < code.length(); i++) {
-		char c = code[i];
-		bool stateChanged = automata << c;
-
-		if (!stateChanged || c == '\n') {
-			if (& automata) {
-				TokenType type = automata.state.currentState->tokenType;
-				tokens.push_back(Token(type, currentWord));
-			}
-
-			--automata;
-			currentWord = "";
-
-			halt = !halt;
-		}
-		else {
-			currentWord += c;
-			halt = false;
-		}
-
-		if (halt) {
-			i--;
-		}
-	}
+	std::vector<Token>tokens = lexicalAnalyzer.analyze(code);
 
 	FileManager filemanager;
 	filemanager.saveTokensBinary(tokens);

@@ -1,1 +1,7 @@
 .vs
+x64
+Release
+LexicalAnalyzer.sln
+LexicalAnalyzer/Release
+LexicalAnalyzer/x64
+*.vcxproj*
