@@ -1,6 +1,6 @@
-Lexical Analyzer 
+# Lexical Analyzer 
 
-Small Only C++ Lexical Analyzer Library
+## Small Only C++ Lexical Analyzer Library
 
 LexicalAnalyzer was made for learning purposes of ongonig Compiler Project
 
@@ -8,11 +8,11 @@ It can reliably parse C++ language, and generate usable Tokens
 
 You can check the examples/ for more elaborate usage.
 
-How to Use
+## How to Use
 Just place the lexpp.h file in your project include directory.
 Just include the LexicalAnalyzer.h file in your project and Start using the wonderful thing. 
 
-Basic Examples
+## Basic Examples
 
 std::string data = "some text to parse! ";
 std::vector<Token> tokens = LexicalAnalayzer.analyze(data);
@@ -24,7 +24,7 @@ for(std::string& t : tokens){
 Tokens contain information about the token word, and the token type.
 
 
-Support
+# Support
 I am just a Highschool student so I may not have the best quality of code but still i am trying my best to write good code!
 
 Any support would be highly appretiated!
