@@ -9,8 +9,7 @@ It can reliably parse C++ language, and generate usable Tokens
 You can check the examples/ for more elaborate usage.
 
 ## How to Use
-Just place the lexpp.h file in your project include directory.
-Just include the LexicalAnalyzer.h file in your project and Start using the wonderful thing. 
+Just place the lexpp.h file in your project include directory and Start using the wonderful thing. 
 
 ## Basic Examples
 
