@@ -31,6 +31,9 @@ bool FiniteAutomata::operator <<(char c) {
 }
 void FiniteAutomata::operator --() {
 	state.currentState = state.root;
+	for (Transition* transition : transitions) {
+		transition->reset();
+	}
 }
 
 bool FiniteAutomata::operator &(){

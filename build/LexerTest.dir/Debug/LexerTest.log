@@ -4,6 +4,7 @@ C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\test\main.cpp(19,14): warni
   FileManager.cpp
   FiniteAutomata.cpp
   LexicalAnalyzer.cpp
+  Transition.cpp
   TransitionIdentifier.cpp
   TransitionKeyword.cpp
   TransitionLiteral.cpp
