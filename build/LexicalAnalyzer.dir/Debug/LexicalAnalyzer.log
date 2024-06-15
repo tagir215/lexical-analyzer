@@ -1,0 +1,12 @@
+﻿  Building Custom Rule C:/Users/OMISTAJA/Desktop/mycomplier/LexicalAnalyzer/CMakeLists.txt
+  FileManager.cpp
+  FiniteAutomata.cpp
+  LexicalAnalyzer.cpp
+  TransitionIdentifier.cpp
+  TransitionKeyword.cpp
+  TransitionLiteral.cpp
+  TransitionPunctuation.cpp
+  main.cpp
+C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\src\main.cpp(19,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  LexicalAnalyzer.vcxproj -> C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\build\Debug\LexicalAnalyzer.lib

@@ -1,0 +1,8 @@
+C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\src\FileManager.cpp;C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\build\LexicalAnalyzer.dir\Debug\FileManager.obj
+C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\src\FiniteAutomata.cpp;C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\build\LexicalAnalyzer.dir\Debug\FiniteAutomata.obj
+C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\src\LexicalAnalyzer.cpp;C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\build\LexicalAnalyzer.dir\Debug\LexicalAnalyzer.obj
+C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\src\TransitionIdentifier.cpp;C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\build\LexicalAnalyzer.dir\Debug\TransitionIdentifier.obj
+C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\src\TransitionKeyword.cpp;C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\build\LexicalAnalyzer.dir\Debug\TransitionKeyword.obj
+C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\src\TransitionLiteral.cpp;C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\build\LexicalAnalyzer.dir\Debug\TransitionLiteral.obj
+C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\src\TransitionPunctuation.cpp;C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\build\LexicalAnalyzer.dir\Debug\TransitionPunctuation.obj
+C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\src\main.cpp;C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\build\LexicalAnalyzer.dir\Debug\main.obj
