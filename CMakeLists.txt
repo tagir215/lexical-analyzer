@@ -4,7 +4,7 @@ project(LexicalAnalyzer CXX)
 file(GLOB HEADER_FILES "include/*.h")
 file(GLOB SOURCE_FILES "src/*.cpp")
 
-add_library(LexicalAnalyzer ${HEADER_FILES} ${SOURCE_FILES})
+add_library(LexicalAnalyzer STATIC ${HEADER_FILES} ${SOURCE_FILES})
 target_include_directories(LexicalAnalyzer PRIVATE
 	${CMAKE_CURRENT_SOURCE_DIR}/include
 )

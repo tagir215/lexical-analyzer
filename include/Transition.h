@@ -10,5 +10,6 @@ public:
 	* IdentifierTransition implementaatio tästä palauttaisi false
 	*/
 	virtual bool execute(AutomataState& state, char c) = 0;
+	virtual void reset();
 };
 

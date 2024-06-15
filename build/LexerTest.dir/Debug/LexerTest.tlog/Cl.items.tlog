@@ -2,6 +2,7 @@ C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\test\main.cpp;C:\Users\OMIS
 C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\src\FileManager.cpp;C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\build\LexerTest.dir\Debug\FileManager.obj
 C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\src\FiniteAutomata.cpp;C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\build\LexerTest.dir\Debug\FiniteAutomata.obj
 C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\src\LexicalAnalyzer.cpp;C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\build\LexerTest.dir\Debug\LexicalAnalyzer.obj
+C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\src\Transition.cpp;C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\build\LexerTest.dir\Debug\Transition.obj
 C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\src\TransitionIdentifier.cpp;C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\build\LexerTest.dir\Debug\TransitionIdentifier.obj
 C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\src\TransitionKeyword.cpp;C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\build\LexerTest.dir\Debug\TransitionKeyword.obj
 C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\src\TransitionLiteral.cpp;C:\Users\OMISTAJA\Desktop\mycomplier\LexicalAnalyzer\build\LexerTest.dir\Debug\TransitionLiteral.obj

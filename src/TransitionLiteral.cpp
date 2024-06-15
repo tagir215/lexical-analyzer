@@ -30,3 +30,7 @@ bool TransitionLiteral::execute(AutomataState& state, char c){
 
     return false;
 }
+
+void TransitionLiteral::reset(){
+    quote_open = false;
+}
