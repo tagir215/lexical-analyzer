@@ -1,0 +1,4 @@
+C:/Users/OMISTAJA/Desktop/mycomplier/LexicalAnalyzer/build/CMakeFiles/LexicalAnalyzer.dir
+C:/Users/OMISTAJA/Desktop/mycomplier/LexicalAnalyzer/build/CMakeFiles/LexerTest.dir
+C:/Users/OMISTAJA/Desktop/mycomplier/LexicalAnalyzer/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/OMISTAJA/Desktop/mycomplier/LexicalAnalyzer/build/CMakeFiles/ZERO_CHECK.dir
